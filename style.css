@@ -57,6 +57,10 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    margin-bottom: 2rem;
+}
+
 .navbar {
     background-color: #fff;
     position: fixed;
@@ -65,8 +69,8 @@ body {
     width: 70%;
     height: 100%;
     z-index: 1;
-    /* opacity: 1;
-    overflow-y: auto; */
+    opacity: 0;
+    /* overflow-y: auto; */
 }
 
 .icon>* {
