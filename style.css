@@ -65,8 +65,8 @@ body {
     width: 70%;
     height: 100%;
     z-index: 1;
-    /* opacity: 1; */
-    /* overflow-y: auto; */
+    /* opacity: 1;
+    overflow-y: auto; */
 }
 
 .icon>* {
