@@ -10,6 +10,8 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a good understanding of HTML and CSS, and basic JavaScript.**
 
+Live: https://approved4me.github.io/FM-news-homepage-main/
+
 ## The challenge
 
 Your challenge is to build out this news website homepage and get it looking as close to the design as possible.
