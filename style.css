@@ -69,9 +69,9 @@ body {
     width: 70%;
     height: 100%;
     z-index: 1;
-    opacity: 0;
-    /* overflow-y: auto; */
+    overflow-y: auto;
 }
+
 
 .icon>* {
     margin-left: auto;
@@ -203,4 +203,25 @@ h1 {
 
 /* MEDIA QUERY */
 
-@media only screen and (min-width: 60rem) {}
+@media only screen and (min-width: 60rem) {
+
+    .navbar {
+        display: flex;
+        background-color: #fff;
+        position: unset;
+        opacity: 1;
+        width: unset;
+    }
+
+    nav {
+        margin: unset;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    .icon {
+        display: none;
+    }
+}
