@@ -93,7 +93,6 @@ nav a {
     text-decoration: none;
     color: var(--neutral-very_dark_blue);
     font-size: 1.5rem;
-
 }
 
 .nav-mobile_menu .icon_close {
@@ -219,6 +218,16 @@ h1 {
 
     nav ul {
         display: flex;
+    }
+
+    nav a {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--neutral-dark_grayish_blue);
+    }
+
+    nav a:hover {
+        color: var(--primary-soft_orange);
     }
 
     .icon {
