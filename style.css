@@ -112,7 +112,7 @@ main {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 2.8rem;
     line-height: 1;
     font-weight: 800;
     margin-block: 2rem;
@@ -124,7 +124,7 @@ h1 {
 }
 
 .headline_teaser p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .headline_teaser .more {
@@ -154,13 +154,13 @@ h1 {
 
 .extra_news h3 {
     color: var(--neutral-off_white);
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin-block: 1rem;
 }
 
 .extra_news p {
     color: var(--neutral-grayish_blue);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .news_bits {
@@ -184,7 +184,7 @@ h1 {
 }
 
 .content {
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .content .counter {
@@ -195,12 +195,12 @@ h1 {
 }
 
 .content h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-bottom: 1rem;
 }
 
 .content p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .attribution {
