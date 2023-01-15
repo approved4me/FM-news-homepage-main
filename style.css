@@ -105,6 +105,11 @@ h1 {
     margin-block: 2rem;
 }
 
+.headline_image {
+    display: flex;
+    justify-content: center;
+}
+
 .headline_teaser p {
     font-size: 1.3rem;
 }
