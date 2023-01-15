@@ -73,8 +73,20 @@ body {
 
 nav {
     margin-top: 5rem;
-    padding-left: 2rem;
     display: none;
+}
+
+.active {
+    display: block;
+    position: fixed;
+    z-index: 101;
+    background-color: #fff;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    padding-top: 4rem;
+    padding-left: 2rem;
 }
 
 nav ul li {
@@ -85,10 +97,11 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: var(--neutral-very_dark_blue);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+
 }
 
-.nav-mobile_menu .icon_close {
+.nav-mobile_menu .icon_hamburger {
     display: none;
 }
 
