@@ -140,6 +140,13 @@ h1 {
     letter-spacing: 5px;
 }
 
+.headline_teaser .more:hover {
+    background-color: #000;
+    color: #fff;
+
+}
+
+
 .extra_news {
     background-color: var(--neutral-very_dark_blue);
     padding: 1.5rem;
@@ -153,9 +160,18 @@ h1 {
 }
 
 .extra_news h3 {
+     margin-bottom: 1rem;
+ }
+
+.extra_news h3 a {
     color: var(--neutral-off_white);
     font-size: 1.2rem;
-    margin-block: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.extra_news h3 a:hover {
+    color: var(--primary-soft_orange);
 }
 
 .extra_news p {
@@ -217,9 +233,15 @@ h1 {
 
 @media only screen and (min-width: 60rem) {
 
+    body {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        gap: 2rem;
     }
 
     .extra_news {
@@ -255,5 +277,10 @@ h1 {
 
     .icon {
         display: none;
+    }
+
+    .headline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
