@@ -66,12 +66,14 @@ body {
 }
 
 .nav-mobile_menu {
+    cursor: pointer;
     position: relative;
     z-index: 9999;
 }
 
 .icon>* {
     margin-left: auto;
+    padding: 1rem 0 1rem 1rem;
 }
 
 nav {
