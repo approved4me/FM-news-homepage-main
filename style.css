@@ -180,7 +180,11 @@ h1 {
 }
 
 .news_bits {
-    padding-block: 2.5rem;
+    padding-block: 2rem;
+}
+
+.news_bits:last-child {
+    padding-bottom: 1rem;
 }
 
 .news_bits:nth-child(odd) {
@@ -191,6 +195,7 @@ h1 {
 .further_headlines {
     margin-top: 5rem;
     margin-bottom: 5rem;
+    gap: 2rem;
 }
 
 .further_bits {
@@ -213,6 +218,16 @@ h1 {
 .content h3 {
     font-size: 1.2rem;
     padding-bottom: 1rem;
+    font-weight: 800;
+}
+
+.content h3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.content h3 a:hover {
+    color: var(--primary-soft_red);
 }
 
 .content p {
@@ -272,7 +287,7 @@ h1 {
     }
 
     nav a:hover {
-        color: var(--primary-soft_orange);
+        color: var(--primary-soft_red);
     }
 
     .icon {
@@ -295,5 +310,14 @@ h1 {
     h1 {
         font-size: 3.5rem;
 
+    }
+
+    .further_headlines {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .content h3 {
+        padding-top: 1rem;;
     }
 }
